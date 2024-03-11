@@ -1,0 +1,120 @@
+.hero-wrapper{
+    color:white;
+    position:relative;
+    padding-bottom:2rem;
+    background-color:var(--black);
+}
+.hero-container{
+    justify-content:space-between;
+    align-items:flex-end;
+    display:flex;
+    flex-direction:row;
+}
+.hero-left{
+    position:relative;
+    top:-20px;
+}
+.image-container{
+    width:25rem;
+    height:30rem;
+    overflow:hidden;
+    border-radius:15rem 15rem 0 0 ;
+    border:8px solid rgba(255,255,255,0.12);
+    position:relative;
+    top:-30px;
+}
+
+.hero-des{
+    padding-left:74px;
+    text-align:justify;
+    font-size:1.4rem;
+}
+.orange{
+    height:3rem;
+    width:3rem;
+    background:var(--orange-gradient);
+    border-radius:999px;
+    position:absolute;
+    right:9%;
+    top:-5px;
+    z-index:-1;
+}
+.hero-left{
+    gap:3rem;
+    
+}
+.hero-tittle{
+    position:relative;
+    z-index:1;
+}
+.hero-tittle>h1{
+    font-weight:600;
+    font-size:3.8rem;
+    line-height:4rem;
+    position:relative;
+    left:20%;
+}
+.search-bar{
+    background-color:white;
+    border-radius:5px;
+    border:3px solid rgba(120,120,120,0.374);
+    padding:0.5rem 1rem;
+    justify-content:space-between;
+    height:60px;
+    position:relative;
+    left:18%;
+}
+.search-bar>input{
+    border:none;
+    outline:none;
+    background:none;
+    color:black;
+}
+.stats {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: center; /* Horizontally center the items */
+    width:120%;
+   
+}
+
+.stat {
+    flex: 0 0 33%; /* Each item takes up 33% of the container width */
+    max-width: 200px; /* Set a maximum width for each item */
+    padding: 10px;
+    
+    border:none;
+}
+
+@media (max-width: 768px) {
+    .stat {
+        flex-basis: 100%; /* Each item takes up 100% of the container width on smaller screens */
+    }
+    .stats {
+        width:50%;
+        position:relative;
+        left:24%;
+    }
+}
+.stat>:nth-child(1){
+    font-size:2rem;
+}
+.stat>:nth-child(1)>:last-child{
+    color:orange;
+}
+@media screen and  (max-width:1100px){
+    .hero-container{
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        flex-direction:column;
+    }
+    .hero-left{
+        position:relative;
+        top:50px;
+    }
+    .image-container{
+        position:relative;
+        top:50px;
+    }
+}

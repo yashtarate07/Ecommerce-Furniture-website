@@ -1,0 +1,32 @@
+.prod-container {
+    max-width:90%;
+    margin: 0 auto;
+    padding: 20px;
+    position:relative;
+    top:50px;
+    
+   
+}
+.prod-item {
+    border:1px solid #ccc;
+    max-width:70%;
+    height:330px;
+    border-radius:20px;
+    box-shadow:1px 1px 3px gray;
+}
+.prod-container img{
+    height:160px;
+    width:50%;
+    border-radius:20px;
+    display:flex;
+    box-shadow:1px 1px 3px gray;
+    margin: 10px auto;
+}
+
+.price  .naming{
+    display:flex;
+    justify-content:center;
+}
+.rating {
+    padding-left:20px;
+}

@@ -1,0 +1,39 @@
+[
+    {
+      "img" :"https://i.pinimg.com/140x140_RS/9c/d6/ec/9cd6ecf4721f97b095f9bf4e85719f88.jpg",
+      "des":"Software Engineer",
+      "text": "Great product quality and excellent customer support.",
+      "name": "John Doe"
+    },
+    {
+      "img":"https://i.pinimg.com/140x140_RS/13/7b/7f/137b7f94e5d88ae4cd27635bb36e0e3a.jpg",
+      "des":"CEO of Mango Tech",
+      "text": "Great product quality and excellent customer support.",
+      "name": "Jane Smith"
+    },
+    {
+        "img":"https://i.pinimg.com/140x140_RS/a5/5d/38/a55d387db1fd70349a79c218dfcbbb68.jpg",
+        "des":"Web Designer",
+        "text": "Great product quality and excellent customer support.",
+        "name": "John Doe"
+      },
+      {
+        "img":"https://i.pinimg.com/140x140_RS/a6/41/8a/a6418afc72df8f020bee5a882f385917.jpg",
+        "des":"Empolyee",
+        "text": "Great product quality and excellent customer support.",
+        "name": "Jane Smith"
+      },
+      {
+        "img":"https://i.pinimg.com/140x140_RS/29/38/d3/2938d3575fc567b3a1de0bccc463250d.jpg",
+        "des":"Student",
+        "text": "Great product quality and excellent customer support.",
+        "name": "John Doe"
+      },
+      {
+        "img":"https://i.pinimg.com/140x140_RS/ae/c7/47/aec7474ea7cf44c87f0fe82ce0a5c296.jpg",
+        "des":"Software Engineer",
+        "text": "Great product quality and excellent customer support.",
+        "name": "Jane Smith"
+      }
+  ]
+  

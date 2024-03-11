@@ -1,0 +1,58 @@
+.main-offer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:#D1EAF0 ;
+    position:relative;
+    top:140px;
+    height:245px;
+    width:70%;
+    left:15%;
+
+   
+  }
+  
+  .left-offer {
+    text-align: center;
+  }
+  .left-offer h4{
+    color:orange;
+    position:'relative';
+    left:-30%;
+  }
+  
+  .btn-off{
+    position:relative;
+    left:-10%;
+  }
+  .right-offer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .right-offer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (min-width: 768px) {
+    
+    .main-offer {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .left-offer {
+      flex: 1;
+      padding-right: 20px;
+      text-align: right;
+    }
+  
+    .right-offer {
+      flex: 1;
+    }
+    
+  }
+  

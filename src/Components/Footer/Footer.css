@@ -1,0 +1,26 @@
+.footer p, h6{
+    color: #1f3e72;
+}
+ .link{
+    color:black;
+}
+.one h1{
+     padding-left:32%;
+}
+.one p{
+    padding-left:35%;
+    color:orange;
+}
+.second{
+    padding-left:34%;
+}
+.join input{
+    background:none;
+    border: 2px solid gray;
+}
+
+@media screen and(max-width:5540px){
+    .footer{
+        display:none;
+    }
+}

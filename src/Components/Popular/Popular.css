@@ -1,0 +1,37 @@
+.slide-item{
+    display:flex;
+    flex-direction:column;
+    width:60%;
+    height:300px;
+    margin:15px auto 20px;
+    box-shadow:2px 2px 3px gray;
+    border-radius:20px;
+}
+.slide-item img{
+    height:160px;
+    width:80%;
+    border-radius:20px;
+    display:flex;
+    box-shadow:1px 1px 3px gray;
+    margin: 10px auto;
+    
+
+}
+.toppop{
+    padding-left:60px;
+
+}
+
+.price , .naming{
+    display:flex;
+    justify-content:center;
+}
+.rating input{
+    max-width:20px;
+    
+}
+.but{
+    width:50%;
+    height:35px;
+    
+}

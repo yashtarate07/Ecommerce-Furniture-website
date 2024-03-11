@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.ganesh{
+    font-family: 'Dancing Script', cursive;
+   
+}
+.navbar li{
+    color:white;
+    font-size:17px;
+    position:relative;
+    left:-20%;
+}
+.cart{
+    position:relative;
+    left:17%;
+}
+.menu{
+    position:relative;
+    left:10%;
+}
+.menu a:hover{
+    text-decoration: underline;
+    text-decoration-color:#ff4141;
+}
+
+
+@media   screen and (max-width: 1024px){
+    .search {
+        display:none;
+    }
+    .cart{
+        display:none;
+    }
+}
+@media   screen and (max-width: 680px){
+    .login {
+        display:none;
+    }
+}
+@media   screen and ( max-width:1270px)
+{
+    .search{
+        position:relative;
+        left:-10%;
+    }
+    .cart{
+        position:relative;
+    }
+    
+}

@@ -1,0 +1,14 @@
+.c-container{
+    justify-content:space-around;
+    gap:10rem;
+}
+.c-container>img{
+    width:7rem;
+}
+
+/* @media screen and (max-width:1100px){
+    .c-wrapper{
+        position:relative;
+        top:-700px;
+    }
+} */
